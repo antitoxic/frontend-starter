@@ -41,9 +41,9 @@ Hashing file names to force-invalidate server cache.
 ```
 
 ### Getting started
-Search and replace `PROJECTNAME` in files and filenames.
-Search and replace `ORGANIZATIONNAME` in files and filenames.
-Run `webpack --watch` for initial compile and then auto-compiles on file changes.
+1. Search and replace `PROJECTNAME` in files and filenames.
+2. Search and replace `ORGANIZATIONNAME` in files and filenames.
+3. Run `webpack --watch` for initial compile and then auto-compiles on file changes.
 
 ### For production
 Before running `webpack` set environment variable:
