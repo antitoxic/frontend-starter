@@ -32,7 +32,7 @@ Hashing file names to force-invalidate server cache.
 │   │  
 │   └── PROJECTNAME            # this is where you put project-specific logic
 │       ├── index.js           # file that takes care of cross-browser polyfills and other workarounds
-│       ├── .modernizrrc       # modernizer confgi for which detects and features you need
+│       ├── .modernizrrc       # modernizer config to define which detects and features you need
 │       ├── modules.js         # registration of all modules
 │       └── styleguide.scss    # project variables (like colors), mixins (like animation) and abstract classes that components share
 ├── package.json
