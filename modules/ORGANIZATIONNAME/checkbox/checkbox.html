@@ -1,0 +1,17 @@
+{{^readonly}}
+<input
+    type="checkbox"
+    {{#name}}name="{{name}}"{{/name}}
+    id="{{id}}Input"
+    {{#checked}}checked="checked"{{/checked}}
+    {{^empty-value}}{{#value}}value="{{value}}"{{/value}}{{^value}}value="1"{{/value}}{{/empty-value}}
+    {{#empty-value}}value=""{{/empty-value}}
+/><label class="check" for="{{id}}Input">{{{tick}}}</label><label for="{{id}}Input">
+<content></content>
+</label>
+    <content select="tip"></content>
+{{/readonly}}
+
+{{#readonly}}
+    {{{tick}}}<content></content>
+{{/readonly}}
